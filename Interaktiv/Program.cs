@@ -3,6 +3,17 @@ Console.WriteLine("Du sticker från polisen och är på en korshning. Åker du h
 string tall = Console.ReadLine();
 tall = tall.ToLower();
 
+string animal = """
+  __.------~~~-.
+,'/             `\
+" \  ,..__ | ,_   `\_,
+   >/|/   ~~\||`\(`~,~'
+   | `\     /'|   \_;
+   "   "   "
+""";
+
+Console.WriteLine(animal);
+
 if (tall == "höger")
 {
     Console.WriteLine("Du lyckades sticka från polis bilarna men stötar på ett helikopter. Kör du in i tunneln eller går ut ur bilen och springer in i skogen? ");
